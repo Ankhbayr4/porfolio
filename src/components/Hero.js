@@ -20,10 +20,13 @@ const Hero = () => {
           <p class="rounded-3xl bg-lime-500 w-2 h-2 mr-2 "></p>
           <p class="text-1xl color text-gray-400 ">Available for new project</p>
         </div>
+      </div>
+      <div class="flex gap-2 mt-16">
         <img src="/vector.png" />
         <img src="/Vector.png" />
-        <img src="/public/Name=icon-figma, Size=24, Theme Mode=Light.png" />
+        <img src="/tiii.png" />
       </div>
     </div>
   );
 };
+export default Hero;

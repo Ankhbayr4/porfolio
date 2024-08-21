@@ -1,13 +1,12 @@
-function Head() {
+import Head from "../components/Head";
+import Hero from "../components/Hero";
+import Container from "../components/Container";
+export default function Home() {
   return (
     <div>
-      <div class="w-96 h-16 flex items-center justify-center">
-        <div class="flex justify-between h-9 w-80  justify-items-center ">
-          <p class="text-3xl">TOM</p>
-          <img src="/icon.png" />
-        </div>
-      </div>
+      <Head />
+      <Hero />
+      <Container />
     </div>
   );
 }
-export default Head;
