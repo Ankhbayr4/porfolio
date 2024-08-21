@@ -1,4 +1,4 @@
-export const Head = () => {
+const Hero = () => {
   return (
     <div class="mx-8">
       <img class="w-64 h-72 mt-16 mb-16 " src="/Pic.png" />
@@ -20,11 +20,9 @@ export const Head = () => {
           <p class="rounded-3xl bg-lime-500 w-2 h-2 mr-2 "></p>
           <p class="text-1xl color text-gray-400 ">Available for new project</p>
         </div>
-      </div>
-      <div class="flex gap-0.5">
-        <img class="w-5 h-5" src="/vector.png" />
-        <img class="w-5 h-5" src="/vector.png" />
-        <img class="w-5 h-5" src="/vector.png" />
+        <img src="/vector.png" />
+        <img src="/Vector.png" />
+        <img src="/public/Name=icon-figma, Size=24, Theme Mode=Light.png" />
       </div>
     </div>
   );
