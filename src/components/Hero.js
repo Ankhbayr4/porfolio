@@ -1,8 +1,10 @@
 const Hero = () => {
   return (
-    <div class="mx-8">
-      <img class="w-64 h-72 mt-16 mb-16 " src="/Pic.png" />
-      <p class="w-80 h-10 text-4xl ">Hi, I’m Tom 👋</p>
+    <div class="px-4 py-16 grid gap-x-6">
+      <div class="flex ">
+        <img class=" m-auto" src="/Pic.png" />
+      </div>
+      <p class="w-80 h-10 text-4xl mt-12 ">Hi, I’m Tom 👋</p>
       <p class="text-gray-400">
         I specialize in full stack development, particularly with React.js and
         Node.js. My main goal is to create exceptional digital experiences that
@@ -10,7 +12,7 @@ const Hero = () => {
         years of experience in web development, I continue to find joy in
         crafting innovative solutions and designs.
       </p>
-      <div class="flex mt-16 ">
+      <div class="flex mt-12 ">
         <img class="mr-2" src="/pcon.png" />
 
         <p class="text-1xl color text-gray-400 ">Ulaanbaatar, Mongolia</p>
@@ -21,7 +23,7 @@ const Hero = () => {
           <p class="text-1xl color text-gray-400 ">Available for new project</p>
         </div>
       </div>
-      <div class="flex gap-2 mt-16">
+      <div class="flex gap-2 mt-12">
         <img src="/vector.png" />
         <img src="/Vector.png" />
         <img src="/tiii.png" />
