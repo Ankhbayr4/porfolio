@@ -1,6 +1,8 @@
 import Javascript from "./icon/Javascript";
+import { Node } from "./icon/Node";
 import { React } from "./icon/React";
 import { TypeScript } from "./icon/Typescript";
+import { Vercel } from "./icon/Vercel";
 
 const skills = [
   {
@@ -18,6 +20,11 @@ const skills = [
     name: "React",
     icon: <React />,
   },
+  // {
+  //   id: 4,
+  //   name: "Next",
+  //   icon: <Next />,
+  // },
 ];
 const Skill = (props) => {
   const { icon, name } = props;
@@ -32,6 +39,9 @@ const Skill = (props) => {
         <Javascript />
         <TypeScript />
         <React />
+        <Node />
+        <Vercel />
+
         {skills.map((skill) => {
           return <skill key={skill.id} name={skill.name} icon={skill.icon} />;
         })}
