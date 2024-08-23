@@ -2,11 +2,12 @@ const Hero = () => {
   return (
     <div
       class="px-4 py-16 grid gap-x-6 bg-gray-100);
-">
+"
+    >
       <div class="flex ">
         <img class=" m-auto" src="/Pic.png" />
       </div>
-      <p class="w-80 h-10 text-4xl mt-12 ">Hi, I’m Tom 👋</p>
+      <p class=" h-10 text-4xl mt-12 ">Hi, I’m Tom 👋</p>
       <p class="text-gray-400">
         I specialize in full stack development, particularly with React.js and
         Node.js. My main goal is to create exceptional digital experiences that
