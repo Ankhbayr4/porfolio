@@ -1,8 +1,14 @@
+import { Express } from "./icon/Express";
 import Javascript from "./icon/Javascript";
+import { Mongodb } from "./icon/Mongodb";
+import { Nest } from "./icon/Nest";
 import { Node } from "./icon/Node";
+import { Postgre } from "./icon/Postgre";
 import { React } from "./icon/React";
+import { Sass } from "./icon/Sass";
+import { Taaa } from "./icon/Taaa";
+import { Sockiet } from "./icon/Tech";
 import { TypeScript } from "./icon/Typescript";
-import { Vercel } from "./icon/Vercel";
 
 const skills = [
   {
@@ -29,18 +35,27 @@ const skills = [
 const Skill = (props) => {
   const { icon, name } = props;
   return (
-    <div>
+    <div class="px-4 py-16 grid gap-x-6 bg-gray-200">
       <div class="flex  justify-center items-center">
         <button class="bg-gray-400 rounded-xl w-24 h-7  ">About me</button>
       </div>
-      <p>The skills, tools and technologies I am really good at:</p>
+      <p className="text-gray-600 text-lg">
+        The skills, tools and technologies I am really good at:
+      </p>
 
-      <div>
+      <div className=" flex flex-wrap gap-9">
         <Javascript />
         <TypeScript />
         <React />
         <Node />
-        <Vercel />
+
+        <Express />
+        <Nest />
+        <Sockiet />
+        <Postgre />
+        <Mongodb />
+        <Sass />
+        <Taaa />
 
         {skills.map((skill) => {
           return <skill key={skill.id} name={skill.name} icon={skill.icon} />;

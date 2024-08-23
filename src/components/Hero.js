@@ -1,6 +1,8 @@
 const Hero = () => {
   return (
-    <div class="px-4 py-16 grid gap-x-6">
+    <div
+      class="px-4 py-16 grid gap-x-6 bg-gray-100);
+">
       <div class="flex ">
         <img class=" m-auto" src="/Pic.png" />
       </div>
