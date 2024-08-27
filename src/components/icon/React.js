@@ -1,13 +1,12 @@
 export const React = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center gap-2">
       <svg
         width="70"
         height="64"
         viewBox="0 0 70 64"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+        xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_327_488)">
           <path
             d="M35.091 38.7725C38.7633 38.7725 41.7404 35.7404 41.7404 32C41.7404 28.2597 38.7633 25.2275 35.091 25.2275C31.4187 25.2275 28.4417 28.2597 28.4417 32C28.4417 35.7404 31.4187 38.7725 35.091 38.7725Z"

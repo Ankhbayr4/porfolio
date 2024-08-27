@@ -9,7 +9,7 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div class="container">
+    <div class="container xl: m-auto">
       <Head />
       <Hero />
       <Container />

@@ -1,6 +1,6 @@
 export const Mongodb = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center gap-2">
       <svg
         width="31"
         height="64"

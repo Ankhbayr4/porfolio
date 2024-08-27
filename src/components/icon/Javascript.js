@@ -1,6 +1,6 @@
 export const Javascript = () => {
   return (
-    <div class="">
+    <div className="flex flex-col justify-center items-center gap-2 ">
       <svg
         width="64"
         height="64"

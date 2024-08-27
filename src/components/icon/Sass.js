@@ -1,9 +1,9 @@
 export const Sass = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center gap-2">
       <svg
-        width="59"
-        height="45"
+        width="64"
+        height="64"
         viewBox="0 0 59 45"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
