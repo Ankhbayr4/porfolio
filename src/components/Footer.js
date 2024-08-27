@@ -44,6 +44,7 @@ export const Footer = () => {
         <img src="Png.png" />
         <p> 2024 | Greetings with ❤️️ from Ulaanbaatar</p>
       </div>
+      <div></div>
     </div>
   );
 };
