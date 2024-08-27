@@ -13,7 +13,7 @@ const Head = () => {
           <div className="flex gap-4">
             <img src="/Icon Button.png" />
 
-            <button className="py-1.5 rounded-xl px-4 text-gray-50 bg-gray-900">
+            <button className="py-1.5 rounded-xl px-4 text-gray-100 bg-gray-900">
               Download CV
             </button>
           </div>
